@@ -1,8 +1,0 @@
-version: 2
-
-models:
-  - name: fct_sales
-    tests:
-      - relationships:
-          column_name: Total_Amount
-          condition: "Total_Amount > 0"

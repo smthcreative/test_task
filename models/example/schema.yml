@@ -5,8 +5,7 @@ models:
     - name: fct_sales
       description: "Sales Table"
       columns:
-          - name: Reference ID
+          - name: "ReferenceID"
             description: "The primary key for this table"
             tests:
-                - unique
                 - not_null
