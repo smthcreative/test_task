@@ -1,6 +1,6 @@
 WITH monthly_revenue AS (
   SELECT
-    FORMAT_TIMESTAMP('%Y-%m', `` Order Date Kyiv`) AS month,
+    FORMAT_TIMESTAMP('%Y-%m', `Order Date Kyiv`) AS month,
     SUM(`Total Revenue`) AS total_revenue
   FROM
     {{ ref('fct_sales') }}
